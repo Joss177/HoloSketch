@@ -1,0 +1,7 @@
+opencv-python
+mediapipe
+numpy
+scipy
+PySide6
+pyvista
+pyvistaqt

@@ -1,0 +1,120 @@
+
+# ==========================================
+# HOLOSKETCH 3D - GITIGNORE
+# ==========================================
+
+# ENTORNOS VIRTUALES
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# PYTHON - CACHE Y COMPILADOS
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+*.dll
+
+# CACHE DE HERRAMIENTAS
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.tox/
+.nox/
+.cache/
+.ipynb_checkpoints/
+
+# EDITORES E IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VARIABLES PRIVADAS Y CREDENCIALES
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# LOGS Y ARCHIVOS TEMPORALES
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.old
+
+# VIDEOS Y GRABACIONES
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# DATASETS Y CAPTURAS
+data/captures/
+data/capturas/
+data/datasets/
+datasets/
+captures/
+recordings/
+
+# MODELOS DE IA (ARCHIVOS PESADOS)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.tflite
+*.safetensors
+*.ckpt
+*.task
+
+# PESOS Y ENTRENAMIENTOS
+weights/
+checkpoints/
+runs/
+training_runs/
+
+# ARCHIVOS 3D GENERADOS
+*.stl
+*.obj
+*.ply
+*.glb
+*.gltf
+*.vtk
+*.vtp
+
+# ARCHIVOS DE SALIDA
+output/
+outputs/
+exports/
+generated/
+build/
+dist/
+*.egg-info/
+
+# REPORTES Y COBERTURA
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ARCHIVOS DE PRUEBA GENERADOS
+test_outputs/
+debug_frames/
+screenshots/
